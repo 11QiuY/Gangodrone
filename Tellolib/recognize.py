@@ -27,7 +27,6 @@ def recognize(frame: cv2.typing.MatLike, debug: bool, model: YOLO):
                 (int(x_max), int(y_max)),
                 (238, 48, 167),
                 2,
-                label="hunman",
             )
     # coded here
 
